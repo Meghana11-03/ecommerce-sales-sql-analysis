@@ -137,16 +137,15 @@ The customer table contains **99,441 records**, while the imported order table c
 
 Therefore, customers identified as having **"No Matching Order"** should not be interpreted as customers who never placed an order. They simply do not have a matching order record in the imported order subset used for this project.
 
-## 📁 Project Structure
+## 📁 Project Files
 
-```text
-ecommerce-sales-sql-analysis/
-│
-├── ecommerce_analysis.sql
-├── README.md
-│
-└── screenshots/
-```
+* `ecommerce_analysis.sql` — SQL queries used for the analysis
+* `README.md` — Project documentation
+* `order-status.png` — Order status analysis result
+* `monthly-orders.png` — Monthly order analysis result
+* `top-states.png` — Top states by order volume
+* `top-cities.png` — Top cities by order volume
+
 
 ## ▶️ How to Run the Project
 
